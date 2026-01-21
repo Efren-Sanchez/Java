@@ -36,7 +36,7 @@ Los programas aquí contenidos tienen un fin didáctico. No están pensados para
 Muchos de ellos no han sido adecuadamente probados, ni cuentan con las mínimas validaciones exigibles.
 Como ocurre con cualquier software libre y de código abierto, el usuario es el único responsable de asegurarse de que el software funcione correctamente y se ajuste a sus necesidades.
 
-¡Usted asume todo el riesgo al usar este software!
+¡Asumes todo el riesgo al usar este software!
 
 ---
 
