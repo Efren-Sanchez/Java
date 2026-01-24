@@ -1,0 +1,99 @@
+Modelado de Figuras Geométricas 2D con Herencia, Polimorfismo e Interfaces
+----------------------------------
+
+Descripción:
+
+Desarrolla un programa en Java que modele un conjunto de figuras geométricas bidimensionales (2D). 
+Cada figura debe estar definida por un conjunto de puntos en el plano cartesiano, y ser capaz de calcular su área y perímetro. 
+El programa debe implementar los conceptos de herencia, polimorfismo e interfaces para lograr una estructura de código clara, reutilizable y extensible. 
+
+
+Requisitos:
+
+    Almacenamiento de Figuras:
+        El programa debe permitir almacenar múltiples figuras geométricas en un vector.
+
+    Interfaz de Usuario:
+        Implementa un menú interactivo que ofrezca las siguientes opciones:
+            Agregar una nueva figura geométrica.
+			Eliminar figuras existentes.
+            Mostrar la lista de todas las figuras almacenadas, incluyendo sus propiedades.
+            Calcular y mostrar el área y el perímetro de una figura específica.
+            Calcular la distancia entre dos puntos.
+
+    Entrada de Datos:
+        Permite al usuario ingresar los datos de las figuras geométricas desde el teclado.
+		El sistema debe ser capaz de crear figuras de manera aleatoria, y ofrecerle esta opción al usuario.
+
+    Representación de Figuras:
+        Cada figura debe estar definida por un conjunto de puntos 2D.
+        Utiliza una clase Punto para representar los puntos en el plano cartesiano.
+        Representa el conjunto de puntos de cada figura mediante un vector de objetos de la clase Punto.
+		Los polígonos se representarán con los puntos de sus vértices.
+		Los curvilíneas se representarán con su centro/s y su radio/s.
+
+    Cálculos Geométricos:
+        Implementa una interfaz Calculable con métodos para calcular el área y el perímetro de las figuras.
+		Esta interfaz Calculable implementará la interfaz CalculoPuntos, donde estarán definidos los métodos estáticos necesarios para realizar otros cálculos, como la distancia entre dos puntos o el producto en cruz.
+        Todas las clases de figuras deben implementar la interfaz Calculable.
+
+    Dibujo de Figuras (Opcional):
+        Define una interfaz Dibujable con un método dibujar().
+        La funcionalidad del método dibujar no se implementará. Se mostrará un mensaje en pantalla del estilo "Se imprime un Triángulo".
+		Todas las clases de figuras deben implementar la interfaz Dibujable.
+
+    Jerarquía de Clases:
+        Define una jerarquía de clases para las figuras geométricas, utilizando herencia para compartir atributos y comportamientos comunes:
+            Figura (clase abstracta)
+                Curvilínea (clase abstracta)
+                    Círculo
+                    Elipse
+                Polígono (clase abstracta)
+                    Triángulo
+                    Cuadrilátero
+                    Pentágono
+                    Hexágono
+                    PolígonoN (polígono de N lados)
+			Recta
+			Curva
+				Parábola
+				Hipérbola
+				Espiral
+				
+
+    Clase Punto:
+        Implementa una clase Punto con atributos x e y para representar las coordenadas de un punto en el plano.
+		Las coordenadas x e y se deben representar mediante números enteros.
+        Incluye constructores (por defecto, con parámetros y de copia), getters, setters, métodos toString() y equals().
+
+    Métodos Específicos de Figuras:
+		Todos los Polígonos:
+            Métodos: getNumeroLados(), getVertices().
+        Triángulo:
+            Métodos para determinar el tipo de triángulo: esEquilatero(), esIsosceles(), esEscaleno().
+            Método para determinar si es un triángulo rectángulo: esRectangulo().
+        Cuadrilátero:
+            Métodos para determinar el tipo de cuadrilátero: esParalelogramo(), esTrapecio(), esTrapezoide(), esCuadrado(), esRectangulo(), esRombo().
+        Pentágono, Hexágono y PolígonoN:
+            Métodos: esConvexo(), esConcavo(), calcularApotema().
+        
+        Elipse:
+            Métodos: getEjeMayor(), getEjeMenor().
+        - Parábola:
+            Métodos: calcularVertice(), calcularFoco(), calcularDirectriz().
+        - Hipérbola:
+            Métodos: calcularFocos(), calcularAsintotas().
+
+    Implementación de Interfaces:
+        Todas las clases de figuras deben implementar las interfaces Calculable y Dibujable.
+
+    Constructores, Getters, Setters, toString() y equals():
+        Todas las clases deben incluir constructores (por defecto, con parámetros y de copia), getters, setters, y métodos toString() y equals() según corresponda.
+		
+	Todo el código debe estar correctamente comentado, utilizando comentarios en formato Javadoc. 
+	
+	En ningún caso se pueden usar objetos como list, arrayList o similares, ni métodos de la librería Array y demás.
+
+
+Objetivo:
+	El objetivo principal es aplicar los principios de la programación orientada a objetos (POO) para diseñar y desarrollar un sistema que permita gestionar figuras geométricas de manera eficiente y extensible.
