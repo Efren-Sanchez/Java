@@ -5,17 +5,15 @@
     Titulación:     Desarrollo de Aplicaciones Multiplataforma (DAM)
     Asignatura:     Programación 
     Curso:          1º
-    Horas totales:  270 ¿¿?? OJO: Confirmar!!
+    Horas totales:  266
     Carga lectiva:  8h/semana
     
     Autor:          Efrén Sánchez 
     Versión:        JDK 21
-    Ejercicios:     158 (10/11/2025)
-
+    
 ## Referencias
 
-<!-- Aquí faltan enlaces a documentación -->
-    Z:\____Desde 0____\_Efrén\Docencia\Informática\DAM Java\
+<!-- OJO: Falta -->
 
 ### Enlaces web
 
@@ -33,7 +31,7 @@
 
 ### Libros
 
-<!-- OJO: referenciar libros sin derechos y los mejores de pago -->
+<!-- OJO: falta -->
 
 ## Introducción a la programación con Java
 <!--
@@ -65,7 +63,6 @@
     - [E009A: Saludo](1.%20Programación%20estructurada/E009A_Saludo.java)
 - [E010: Intercambio del valor de dos variables](1.%20Programación%20estructurada/E010_IntercambioValores.java)
 
-## Nivel básico
 <!-- 
 ### Operadores
 #### Operador de asignación
@@ -271,8 +268,6 @@ De hecho, aquí se podrían añadir muchísimos ejercicios.
 - [E118: Conversión de decimal a binario](1.%20Programación%20estructurada/E118_DecimalABinario.java)
 - [E119: Resto división entera](1.%20Programación%20estructurada/E119_Resto.java)
 
-## Nivel medio
-
 ### Vectores
 <!-- OJO: me quedo aquí -->
 - [E120: Primer vector]() -- Mostrar valores inicializados por defecto
@@ -322,8 +317,6 @@ De hecho, aquí se podrían añadir muchísimos ejercicios.
 - [C004: Animales](2.-%20Programación%20OO/C004_Animales/README.md)
 - [C005: Bliblioteca 2.0](2.-%20Programación%20OO/C005_Biblioteca_2.0/README.md)
 - [C006: ](2.-%20Programación%20OO)
-
-## Nivel Avanzado
 
 ### Ficheros
 
